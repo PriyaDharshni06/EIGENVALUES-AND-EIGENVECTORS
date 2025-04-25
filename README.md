@@ -11,7 +11,19 @@ To write a python program to find the Eigenvalues and Eigen Vectors
 ### Step 4: 
 
 ## Program:
+```python
+#Program to find the eigen values and eigen vectors.
+#Developed by: PRIYA DHARSHNI S
+#RegisterNumber: 212224100045
+
+import numpy as np
+a= np.array([[2,-3,0],[2,-5,0],[0,0,3]])
+values,vectors=np.linalg.eig(a)
+print('Eigen values are {} and Eigen Vectors are {} '.format(values,vectors))
+```
 
 ## Output:
+![Screenshot 2025-04-25 202524](https://github.com/user-attachments/assets/862dcd71-8120-4003-8550-b3033ee2bac1)
+
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
